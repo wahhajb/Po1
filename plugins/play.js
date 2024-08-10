@@ -29,7 +29,7 @@ const texto1 = `اغــنيــههة 💫 يـوتـيـوب\n
 await conn.sendButton(m.chat, texto1, wm, res.videos[0].thumbnail, [
 	['الصوت 💫', `${usedPrefix}mp3 ${text}`],
 	['الفيديو 🎥', `${usedPrefix}mp4 ${text}`]
-  ], null, [['قناتي 👾', `https://whatsapp.com/channel/0029VahbMZl4tRrkdpJrCv2f`]], m)
+  ], null, [['قناتي 👾', `https://whatsapp.com/channel/0029ValKwOM0lwgjkCI6C71Y`]], m)
 	  }
   
             if (command == "mp3") {
@@ -167,7 +167,7 @@ thumbnail: await (await fetch(vid.thumbnail)).buffer()}}}, { quoted: m })
        let { title, dl_url, size } = yt
        let limit = 100
        
-if (size.split('MB')[0] >= limit) return conn.reply(m.chat,`يزن الملف أكثر من ${limit} ميغابايت، تم إلغاء التنزيلa.`,  m, fake,).then(_ => m.react('✖️'))
+if (size.split('MB')[0] >= limit) return conn.reply(m.chat,` الملف أكثر من ${limit} ميغابايت، تم إلغاء التنزيلa.`,  m, fake,).then(_ => m.react('✖️'))
        
        await conn.sendMessage(m.chat, { document: { url: dl_url }, mimetype: "audio/mpeg", fileName: vid.title + '.mp3', quoted: m, contextInfo: {
 'forwardingScore': 200,
