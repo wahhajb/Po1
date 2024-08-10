@@ -30,7 +30,7 @@ let handler = async (message, { conn, text, usedPrefix, command }) => {
     for (let result of selectedResults) {
       results.push({
         body: proto.Message.InteractiveMessage.Body.fromObject({ text: null }),
-        footer: proto.Message.InteractiveMessage.Footer.fromObject({ text: "BY :ほ𝐸𝐿𝐴𝐾𝑅𝐸𝐵〆" }), // ضع العلامة المائية هنا
+        footer: proto.Message.InteractiveMessage.Footer.fromObject({ text: "BY :ほستيڤن〆" }), // ضع العلامة المائية هنا
         header: proto.Message.InteractiveMessage.Header.fromObject({
           title: '' + result.title,
           hasMediaAttachment: true,
