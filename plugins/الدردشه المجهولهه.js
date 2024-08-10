@@ -41,7 +41,7 @@ conn.relayMessage(m.chat, { viewOnceMessage: { message: { interactiveMessage: { 
 *~⌬ تــ✍︎ــوقــيــع ↡~*🖋️
 *⌞⚜️┊Zenon ス M.E.Z┊⚜️⌝*
 *⌬∙ • ──╾⊱﹝⚜️﹞⊰╼── • ∙⌬*
-> Copyright © 2024 Elsony`,subtitle: "Elsony",},header: { hasMediaAttachment: true,...(await prepareWAMessageMedia({ image : { url: Elsony } }, { upload: conn.waUploadToServer }, {quoted: m}))},nativeFlowMessage: { buttons: [
+> Copyright © 2024 ستيفن`,subtitle: "ستيفن",},header: { hasMediaAttachment: true,...(await prepareWAMessageMedia({ image : { url: Elsony } }, { upload: conn.waUploadToServer }, {quoted: m}))},nativeFlowMessage: { buttons: [
 
 
                             {
