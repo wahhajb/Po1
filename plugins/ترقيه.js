@@ -36,7 +36,7 @@ let handler = async (m, { conn, usedPrefix, text }) => {
   }
 };
 
-handler.help = ['*201063720595xxx*', '*@اسم المستخدم*', '*محادثة المستجيب*'].map(v => 'promote ' + v);
+handler.help = ['*527774838355xxx*', '*@اسم المستخدم*', '*محادثة المستجيب*'].map(v => 'promote ' + v);
 handler.tags = ['group'];
 handler.command = /^(ترقيه|رفع)$/i;
 handler.group = true;
