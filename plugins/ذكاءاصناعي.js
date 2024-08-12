@@ -25,7 +25,7 @@ let handler = async (m, { conn, text, command }) => {
     }
 };
 
-handler.command = ['gpt4', 'جبت4', 'زيزو', 'جيبيتي'];
+handler.command = ['gpt4', 'جبت4', 'اسمر', 'جيبيتي'];
 handler.tags = ['ai'];
 handler.help = ['gpt4 <النص> - للحصول على إجابة باستخدام GPT-4'];
 
