@@ -5,10 +5,10 @@ var handler = async (m, { text, usedPrefix, command }) => {
 	text: "> *مرحباً، أنا خدمة `Black Box Ai`، خدمة قادرة على برمجة الأكواد بجميع اللغات وحل مشاكل البرمجة، على سبيل المثال :*\n\n- #بلاك كيفية إنشاء صفحة تسجيل دخول باستخدام `html`", 
   contextInfo: {
 	externalAdReply: {
-	title: 'بوت زيزو',
+	title: 'بوت ستيفن',
 	body: 'قسم الذكاء الاصطناعي',
-	thumbnailUrl: 'https://telegra.ph/file/f4f9d2420ac2b1072eb2e.jpg',
-	sourceUrl: 'https://whatsapp.com/channel/0029Vaflefp4Y9ljqmqllP3a',
+	thumbnailUrl: 'https://telegra.ph/file/5e35efc0549eb8cbcfc5c.jpg',
+	sourceUrl: 'https://chat.whatsapp.com/JRz2Z2IqhfbI10PbPE5Ydq',
 	mediaType: 1,
 	renderLargerThumbnail: true
 	}}})
@@ -22,10 +22,10 @@ let view = res.result;
 	text: view, 
         contextInfo: {
 	externalAdReply: {
-	title: 'بوت زيزو',
+	title: 'بوت ستيفن',
 	body: 'قسم الذكاء الاصطناعي',
-	thumbnailUrl: 'https://telegra.ph/file/f4f9d2420ac2b1072eb2e.jpg',
-	sourceUrl: 'https://whatsapp.com/channel/0029Vaflefp4Y9ljqmqllP3a',
+	thumbnailUrl: 'https://telegra.ph/file/5e35efc0549eb8cbcfc5c.jpg',
+	sourceUrl: 'https://chat.whatsapp.com/JRz2Z2IqhfbI10PbPE5Ydq',
 	mediaType: 1,
 	renderLargerThumbnail: true
 	}}})
