@@ -12,7 +12,7 @@ let BK0 = await BK7.download()
 
 let BK9img = await (uploader)(BK0)
 let BK9api = await (await fetch(`https://api.bk9.site/ai/geminiimg?url=${BK9img}&q=${text}`)).json()
-conn.sendMessage(m.chat, { text: BK9api.BK9 +'\n\n> 𝘽𝙮: 𝙯𝙚𝙯𝙤' }, { quoted: m })
+conn.sendMessage(m.chat, { text: BK9api.BK9 +'\n\n> 𝘽𝙮: ستيڤن' }, { quoted: m })
 } else throw `「 خــطــأ!! 」\n قــم بالــرد عــلـي صــوره`
 }
 handler.tags = ['ai']
