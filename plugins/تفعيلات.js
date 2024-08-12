@@ -212,7 +212,7 @@ const handler = async (m, {conn, usedPrefix, command, args, isOwner, isAdmin, is
       }
       chat.delete = isEnable;
       break;
-    case 'مضاد الحذف':
+    case 'مضادالحذف':
       if (m.isGroup) {
         if (!(isAdmin || isOwner)) {
           global.dfail('admin', m, conn);
@@ -229,7 +229,7 @@ const handler = async (m, {conn, usedPrefix, command, args, isOwner, isAdmin, is
       }
       global.opts['self'] = !isEnable;
       break;
-    case 'antilink2':
+    case 'مضادالينكات':
       if (m.isGroup) {
         if (!(isAdmin || isOwner)) {
           global.dfail('admin', m, conn);
@@ -238,7 +238,7 @@ const handler = async (m, {conn, usedPrefix, command, args, isOwner, isAdmin, is
       }
       chat.antiLink = isEnable;
       break;
-    case 'antilink':
+    case 'مضاداللينكات2':
       if (m.isGroup) {
         if (!(isAdmin || isOwner)) {
           global.dfail('admin', m, conn);
@@ -247,7 +247,7 @@ const handler = async (m, {conn, usedPrefix, command, args, isOwner, isAdmin, is
       }
       chat.antiLink2 = isEnable;
       break;
-    case 'مضاد الاخفاء':
+    case 'مضادالاخفاء':
       if (m.isGroup) {
         if (!(isAdmin || isOwner)) {
           global.dfail('admin', m, conn);
@@ -274,7 +274,7 @@ const handler = async (m, {conn, usedPrefix, command, args, isOwner, isAdmin, is
       }
       chat.modoadmin = isEnable;
       break;
-    case 'ستيكر تلقائي':
+    case 'ستيكرتلقائي':
       if (m.isGroup) {
         if (!(isAdmin || isOwner)) {
           global.dfail('admin', m, conn);
@@ -300,7 +300,7 @@ const handler = async (m, {conn, usedPrefix, command, args, isOwner, isAdmin, is
       }
       bot.restrict = isEnable;
       break;
-    case 'soundbot':
+    case 'اصوات_البوت':
       isAll = true;
       if (!isOwner) {
         global.dfail('owner', m, conn);
@@ -334,7 +334,7 @@ const handler = async (m, {conn, usedPrefix, command, args, isOwner, isAdmin, is
       }
       global.opts['pconly'] = isEnable;
       break;
-    case 'group':
+    case 'جروبات':
     case 'grouponly':
       isAll = true;
       if (!isROwner) {
@@ -352,7 +352,7 @@ const handler = async (m, {conn, usedPrefix, command, args, isOwner, isAdmin, is
       }
       global.opts['swonly'] = isEnable;
       break;
-    case 'anticall':
+    case 'مضادالمكالمات':
       isAll = true;
       if (!isROwner) {
         global.dfail('rowner', m, conn);
@@ -360,7 +360,7 @@ const handler = async (m, {conn, usedPrefix, command, args, isOwner, isAdmin, is
       }
       bot.antiCall = isEnable;
       break;
-    case 'antiprivate':
+    case 'مضادالخاص':
       isAll = true;
       if (!isROwner) {
         global.dfail('rowner', m, conn);
@@ -376,7 +376,7 @@ const handler = async (m, {conn, usedPrefix, command, args, isOwner, isAdmin, is
       }
       bot.modejadibot = isEnable;
       break;
-    case 'antispam':
+    case 'مضادالاسبام':
       isAll = true;
       if (!isROwner) {
         global.dfail('rowner', m, conn);
@@ -384,7 +384,7 @@ const handler = async (m, {conn, usedPrefix, command, args, isOwner, isAdmin, is
       }
       bot.antispam = isEnable;
       break;
-    case 'antitoxic':
+    case 'مضادالشتائم':
       if (m.isGroup) {
         if (!(isAdmin || isOwner)) {
           global.dfail('admin', m, conn);
