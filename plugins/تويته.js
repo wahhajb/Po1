@@ -3,7 +3,7 @@ let handler = async (m, { conn, text }) => {
 
   const avatar = await conn
     .profilePictureUrl(m.sender, 'image')
-    .catch(_ => 'https://telegra.ph/file/24fa902ead26340f3df2c.png')
+    .catch(_ => 'https://telegra.ph/file/5e35efc0549eb8cbcfc5c.jpg')
   const displayName = conn.getName(m.sender)
   const username = m.sender.split('@')[0]
   const replies = '69' // Replace with the desired value
