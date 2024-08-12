@@ -16,7 +16,7 @@ export async function before(m, {conn, isAdmin, isBotAdmin }) {
         await conn.reply(m.chat, `*≡ تم اكتشاف الرابط*
             
 *نحن لا نسمح بالروابط من المجموعات الأخرى*
-طير ياورع *@${m.sender.split('@')[0]}*  *سيتم طردك من المجموعة* ${isBotAdmin ? '' : '\n\n*انا مش مشرف عشان كده هيص لغايت محد يديني اشراف* :"v'}`, null, { mentions: [m.sender] } )
+طير ياورع *@${m.sender.split('@')[0]}*  *سيتم طردك من المجموعة* ${isBotAdmin ? '' : '\n\n*انا مش مشرف عشان مابزيلك* :"v'}`, null, { mentions: [m.sender] } )
         if (isBotAdmin && chat.antiLink) {
         	await conn.sendMessage(m.chat, { delete: m.key })
             await conn.groupParticipantsUpdate(m.chat, [m.sender], 'remove')
