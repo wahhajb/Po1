@@ -39,7 +39,7 @@ const handler = async (_0x146187, {
     text: _0x4e0ad7,
     usedPrefix: _0x1076f1
 }) => {
-    if (!_0x4e0ad7) throw '_*>>🌿قسم اليوتيوب 🌿<<*_\x0a*حط اسم عشان تنزل اللي انت عايزو*\x0a\x0a*—◉ مثل:*\x0a*' + (_0x1076f1 + _0x47bd8f) + ' xxxtntacion sad*\x0a\x0a' + global['veeeee'];
+    if (!_0x4e0ad7) throw '_*>>🌿قسم اليوتيوب 🌿<<*_\x0a*حط اسم الي تبي تنزله*\x0a\x0a*—◉ مثال:*\x0a*' + (_0x1076f1 + _0x47bd8f) + ' xxxtntacion sad*\x0a\x0a' + global['veeeee'];
     await _0xf236eb['sendMessage'](_0x146187['chat'], {
         'react': {
             'text': '✅',
