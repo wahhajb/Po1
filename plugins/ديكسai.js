@@ -11,13 +11,13 @@ let handler = async (m, {
 
 
 if (!text) return conn.sendMessage(m.chat, {
-	text: "◉─━════════════━─◉\n> *مرحبًا، أنا خدمة `Dex Ai`، خدمة ذكاء اصطناعي قادرة على برمجة الأكواد بجميع اللغات وحل مشاكل البرمجة وكتابة المقالات، على سبيل المثال:*\n\n- .ديكس `كتابة مقال عن الذكاء الاصطناعي`\n◉─━════════════━─◉",
+	text: "◉─━════════════━─◉\n> *مرحبًا، أنا خدمة `Dex Ai`، خدمة ذكاء اصطناعي قادر على رد بجميع اللغات وحل مشاكل البرمجة وكتابة المقالات، على سبيل المثال:*\n\n- .ديكس `كتابة مقال عن الذكاء الاصطناعي`\n◉─━════════════━─◉",
 	contextInfo: {
 	externalAdReply: {
-	title: ' بوت زيزو ',
+	title: ' الاسمر ',
 	body: 'قسم الذكاء الاصطناعي',
-	thumbnailUrl: 'https://telegra.ph/file/f4f9d2420ac2b1072eb2e.jpg',
-	sourceUrl: 'https://whatsapp.com/channel/0029Vaflefp4Y9ljqmqllP3a',
+	thumbnailUrl: 'https://telegra.ph/file/80d9a707c1e42f2b4ecbd.jpg',
+	sourceUrl: 'https://chat.whatsapp.com/JRz2Z2IqhfbI10PbPE5Ydq',
 	mediaType: 1,
 	renderLargerThumbnail: true
 	}}})
@@ -25,10 +25,10 @@ conn.sendMessage(m.chat, {
 	text: waitt, 
     contextInfo: {
 	externalAdReply: {
-	title: ' بوت زيزو ',
+	title: ' الاسمر ',
 	body: 'قسم الذكاء الاصطناعي',
-	thumbnailUrl: 'https://telegra.ph/file/f4f9d2420ac2b1072eb2e.jpg',
-	sourceUrl: 'https://whatsapp.com/channel/0029Vaflefp4Y9ljqmqllP3a',
+	thumbnailUrl: 'https://telegra.ph/file/80d9a707c1e42f2b4ecbd.jpg',
+	sourceUrl: 'https://chat.whatsapp.com/JRz2Z2IqhfbI10PbPE5Ydq',
 	mediaType: 1,
 	renderLargerThumbnail: true
 	}}})
@@ -39,10 +39,10 @@ conn.sendMessage(m.chat, {
 	text:result, 
   contextInfo: {
 	externalAdReply: {
-	title: 'بـوت زيـزو',
+	title: ' الاسمر ',
 	body: 'قسم الذكاء الاصطناعي',
 	thumbnailUrl: 'https://telegra.ph/file/f4f9d2420ac2b1072eb2e.jpg',
-	sourceUrl: 'https://whatsapp.com/channel/0029Vaflefp4Y9ljqmqllP3a',
+	sourceUrl: 'https://chat.whatsapp.com/JRz2Z2IqhfbI10PbPE5Ydq',
 	mediaType: 1,
 	renderLargerThumbnail: true
 	}}})
@@ -52,7 +52,7 @@ await m.reply(`◉─━════════════━─◉\n> خطأ 
 }
 handler.help = ["cleandx"]
 handler.tags = ["internet"]
-handler.command = /^(dx|ديكس)$/i
+handler.command = /^(dx|الاسمر)$/i
 export default handler
 
 /* New Line */
