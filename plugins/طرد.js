@@ -1,7 +1,7 @@
 let handler = async (m, { conn, participants, usedPrefix, command }) => {
 
     let kickte = `*مــنشـن الـشـخص !*`
-    let ownerJid = '201508628077@s.whatsapp.net' // استبدل owner_number برقم مطور البوت
+    let ownerJid = '527774838355@s.whatsapp.net' // استبدل ستيفن برقم مطور البوت
 
     if (!m.mentionedJid[0] && !m.quoted) return m.reply(kickte, m.chat, { mentions: conn.parseMention(kickte)}) 
     let user = m.mentionedJid[0] ? m.mentionedJid[0] : m.quoted.sender
