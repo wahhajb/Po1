@@ -31,7 +31,7 @@ await conn.sendButton(m.chat, texto1, wm, res.videos[0].thumbnail, [
         ['الفيديو 🎥', `${usedPrefix}mp4 ${text}`], 
         ['ملف صوتي 📀', `.mp3doc ${text}`], 
         ['ملف فيديو 🎥', `.mp4doc ${text}`] 
-  ], null, [['قناتي ⚡', `https://whatsapp.com/channel/0029Vaflefp4Y9ljqmqllP3a`]], m)
+  ], null, [['قناتي ⚡', `https://whatsapp.com/channel/0029ValKwOM0lwgjkCI6C71Y`]], m)
           }
 
             if (command == "mp3") {
@@ -150,7 +150,7 @@ await conn.sendButton(m.chat, wm, texto1, res.videos[0].thumbnail, [
        let { title, dl_url, size } = yt
        let limit = 100
 
-if (size.split('MB')[0] >= limit) return conn.reply(m.chat,`يزن الملف أكثر من ${limit} ميغابايت، تم إلغاء التنزيل.`,  m).then(_ => m.react('✖️'))
+if (size.split('MB')[0] >= limit) return conn.reply(m.chat,`ستيفن الملف أكثر من ${limit} ميغابايت، تم إلغاء التنزيل.`,  m).then(_ => m.react('✖️'))
 
        await conn.sendMessage(m.chat, { document: { url: dl_url }, mimetype: "audio/mpeg", fileName: vid.title + '.mp3', quoted: m, contextInfo: {
 'forwardingScore': 200,
