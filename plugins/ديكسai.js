@@ -41,7 +41,7 @@ conn.sendMessage(m.chat, {
 	externalAdReply: {
 	title: ' الاسمر ',
 	body: 'قسم الذكاء الاصطناعي',
-	thumbnailUrl: 'https://telegra.ph/file/f4f9d2420ac2b1072eb2e.jpg',
+	thumbnailUrl: 'https://telegra.ph/file/80d9a707c1e42f2b4ecbd.jpg',
 	sourceUrl: 'https://chat.whatsapp.com/JRz2Z2IqhfbI10PbPE5Ydq',
 	mediaType: 1,
 	renderLargerThumbnail: true
