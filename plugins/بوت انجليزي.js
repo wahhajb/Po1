@@ -3,7 +3,7 @@ import fetch from 'node-fetch'
 let handler = async (m, { conn, text, usedPrefix, command }) => {
   const name = conn.getName(m.sender)
   if (!text) {
-    throw `Hi *${name}*, do you want to talk? Respond with *${usedPrefix + command}* (your message)\n\n📌 Example: *${usedPrefix + command}* Hi bot`
+    throw `مرحبا *${name}*, هل تريد التحدث؟ رد بـ *${usedPrefix + command}* (رسالتك)\n\n📌 مثال: *${usedPrefix + command}* مرحبًا الاسمر`
   }
 
   m.react('🗣️')
@@ -20,6 +20,6 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
 
 handler.help = ['bot']
 handler.tags = ['fun']
-handler.command = ['bot', 'alexa']
+handler.command = ['bot', 'الاسمر']
 
 export default handler
