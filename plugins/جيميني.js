@@ -3,13 +3,13 @@ import fetch from 'node-fetch';
 var handler = async (m, { text, usedPrefix, command }) => {
   if (!text) {
     return conn.sendMessage(m.chat, {
-	text: "⟣┈┈┈┈⟢〘❄〙⟣┈┈┈┈⟢\n> *مرحبًا، أنا خدمة `Gemini Ai`، خدمة قادرة على كتابة المقالات وكتابة الاكواد البرمجية، على سبيل المثال:*\n\n- .جيمني `كتابة مقال عن الذكاء الاصطناعي`\n⟣┈┈┈┈⟢〘❄〙⟣┈┈┈┈⟢", 
+	text: "⟣┈┈┈┈⟢〘❄〙⟣┈┈┈┈⟢\n> *مرحبًا، أنا خدمة `Gemini Ai`، خدمة قادرة على كتابة المقالات وكتابة الاكواد البرمجية، على سبيل المثال:*\n\n- .ستيفن `كتابة مقال عن الذكاء الاصطناعي`\n⟣┈┈┈┈⟢〘❄〙⟣┈┈┈┈⟢", 
   contextInfo: {
 	externalAdReply: {
-	title: 'بوت زيزو',
+	title: 'بوت ستيفن',
 	body: 'قسم الذكاء الاصطناعي',
-	thumbnailUrl: 'https://telegra.ph/file/f4f9d2420ac2b1072eb2e.jpg',
-	sourceUrl: 'https://whatsapp.com/channel/0029Vaflefp4Y9ljqmqllP3a',
+	thumbnailUrl: 'https://telegra.ph/file/5e35efc0549eb8cbcfc5c.jpg',
+	sourceUrl: 'https://chat.whatsapp.com/JRz2Z2IqhfbI10PbPE5Ydq',
 	mediaType: 1,
 	renderLargerThumbnail: true
 	}}})
@@ -26,10 +26,10 @@ var handler = async (m, { text, usedPrefix, command }) => {
 	text: res.result, 
   contextInfo: {
 	externalAdReply: {
-	title: 'بوت زيزو',
+	title: 'بوت ستيفن',
 	body: 'قسم الذكاء الاصطناعي',
-	thumbnailUrl: 'https://telegra.ph/file/f4f9d2420ac2b1072eb2e.jpg',
-	sourceUrl: 'https://whatsapp.com/channel/0029Vaflefp4Y9ljqmqllP3a',
+	thumbnailUrl: 'https://telegra.ph/file/5e35efc0549eb8cbcfc5c.jpg',
+	sourceUrl: 'https://chat.whatsapp.com/JRz2Z2IqhfbI10PbPE5Ydq',
 	mediaType: 1,
 	renderLargerThumbnail: true
 	}}})
@@ -43,7 +43,7 @@ var handler = async (m, { text, usedPrefix, command }) => {
   }
 };
 
-handler.command = ['gi', 'gemini', 'جيمني','جيميني'];
+handler.command = ['gi', 'gemini', 'ستيفن','جيميني'];
 handler.help = ['gemini'];
 handler.tags = ['أدوات'];
 export default handler;
