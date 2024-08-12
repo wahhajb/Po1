@@ -4,7 +4,7 @@ const handler = async (m, {conn, isAdmin}) => {
   try {
     await conn.groupParticipantsUpdate(m.chat, [m.sender], 'promote');
   } catch {
-    await m.reply('*[❗] ايف مش قادر*');
+    await m.reply('*[❗] اسف لااستطيع*');
   }
 };
 handler.command = /^autoadmin|adm|ادمني|ارفعني$/i;
