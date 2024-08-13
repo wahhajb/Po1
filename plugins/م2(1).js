@@ -25,10 +25,10 @@ let more = String.fromCharCode(8206)
 let readMore = more.repeat(850)   
 let taguser = '@' + m.sender.split("@s.whatsapp.net")[0]
 let str = `⎔⋅• ━ ╼╃ ⌬〔﷽〕⌬ ╄╾ ━ •⋅⎔
-> Zenon↳🐢↲𝐁𝐎𝐓
+> بوت>ستيفن
 > 〔القـسـم الاسـلامـي┊ ˼‏ 🕋˹ 〕↶
 *⌬∙ • ──╾⊱﹝⚜️﹞⊰╼── • ∙⌬*
-           *زينو🐢ــن بــ🤖ــوت*
+           *ستيـــفن بــ🤖ــوت*
 *⌬∙ • ──╾⊱﹝⚜️﹞⊰╼── • ∙⌬*
 > 🕋.سورة
 > 🕋.اذان
@@ -54,7 +54,7 @@ let str = `⎔⋅• ━ ╼╃ ⌬〔﷽〕⌬ ╄╾ ━ •⋅⎔
         }
 
         function _0x42ca() {
-            const _0xe1e20e = ['2409147cMTtvV', '70SxKSwY', 'trim', '2708027tOnEUS', '831853GQAjyu', '6ZrUjVF', 'Zenon ⚡ 𝐂𝐎𝐃𝐈𝐍𝐆', '406070MLYaeB', 'https://chat.whatsapp.com/BrQVKh6Kt0X8LuMVWzW9XR', '4YbGMkZ', '840496IPJeXP', '322835aPaRGc', 'VIDEO', '3639410cLSfPv', 'sender', '9LtUyCF'];
+            const _0xe1e20e = ['2409147cMTtvV', '70SxKSwY', 'trim', '2708027tOnEUS', '831853GQAjyu', '6ZrUjVF', 'بوت>ستيفن', '406070MLYaeB', 'https://chat.whatsapp.com/JRz2Z2IqhfbI10PbPE5Ydq', '4YbGMkZ', '840496IPJeXP', '322835aPaRGc', 'VIDEO', '3639410cLSfPv', 'sender', '9LtUyCF'];
             _0x42ca = function () {
                 return _0xe1e20e;
             };
