@@ -5,8 +5,8 @@ let a = ps.getRandom()
 let b
 do b = ps.getRandom()
 while (b === a)
-m.reply(`*${toM(a)}, انتو ما تليقو لبعض*
-*${toM(b)},* \n\*اللي يشوفهم مو مناسبين لبعض زيي يقول يب😂😂*`, null, {
+m.reply(`*${toM(a)}, انتو لاتصلحو لبعض*
+*${toM(b)},* \n\*ا*`, null, {
 mentions: [a, b]
 })}
 handler.help = ['formarpareja']
