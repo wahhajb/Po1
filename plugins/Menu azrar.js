@@ -25,7 +25,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
     let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender
     let taguser = '@' + m.sender.split("@s.whatsapp.net")[0];
   await conn.sendMessage(m.chat, { react: { text: '📂', key: m.key } })
-  const Elsony = 'https://telegra.ph/file/32329ff221ac7bbb7ab7b.jpg'
+  const Elsony = 'https://telegra.ph/file/80d9a707c1e42f2b4ecbd.jpg'
   const mentionId = m.key.participant || m.key.remoteJid;
  
 conn.relayMessage(m.chat, { viewOnceMessage: { message: { interactiveMessage: { header: { title: `gataVidMenu`}, body: { text: `*• ──╾⊱﹝⚜️﹞⊰╼── •*
@@ -149,7 +149,7 @@ conn.relayMessage(m.chat, { viewOnceMessage: { message: { interactiveMessage: { 
                      },
                      {
                name: "cta_url",
-               buttonParamsJson: '{"display_text":"⌈📲╎قـنـاة الـمـطـور╎📲⌋","url":"https://chat.whatsapp.com/JRz2Z2IqhfbI10PbPE5Ydq","merchant_url":"https://chat.whatsapp.com/JRz2Z2IqhfbI10PbPE5Ydq"}'
+               buttonParamsJson: '{"display_text":"⌈📲╎قـنـاة الـمـطـور╎📲⌋","url":"https://whatsapp.com/channel/0029ValKwOM0lwgjkCI6C71Y","merchant_url":"https://whatsapp.com/channel/0029ValKwOM0lwgjkCI6C71Y"}'
                             }
                         ]
                     }
