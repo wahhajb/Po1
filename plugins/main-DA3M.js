@@ -1,10 +1,10 @@
 let handler = async m => m.reply(`
 
-≡  *Zenon↳🐢↲𝐁𝐎𝐓*
+≡  *بوت>ستيفن*
 
 _GROUP:_
 ─────────────
-▢ انضم إلى مجموعة البوت *العامة والدعم*
+▢ انضم إلى مجموعة البوت *
 https://chat.whatsapp.com/JRz2Z2IqhfbI10PbPE5Ydq
 
 ─────────────
