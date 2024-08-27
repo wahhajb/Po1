@@ -5,7 +5,7 @@ let previousMessages = [];
 const handler = async (m, { text, usedPrefix, command, conn }) => {
   try {
     if (!text) {
-      throw "أدخل السؤال!\n\n*مثال:* من هو اول من اخترع السيارة ؟";
+      throw "أدخل السؤال!\n\n*مثال:*ستيفن من هو اول من اخترع السيارة ؟";
     }
 
     let name = conn.getName(m.sender);
@@ -55,5 +55,5 @@ const handler = async (m, { text, usedPrefix, command, conn }) => {
 
 handler.help = ['ai'];
 handler.tags = ['ai'];
-handler.command = /^(ai|بوت1)$/i;
+handler.command = /^(ai|ستيفن)$/i;
 export default handler;
