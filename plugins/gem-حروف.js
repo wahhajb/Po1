@@ -10,7 +10,7 @@ let handler = async (m, { conn, usedPrefix }) => {
         conn.reply(m.chat, '❐┃لم يتم الاجابة علي السؤال بعد┃❌ ❯', conn.tekateki[id][0]);
         throw false;
     }
-    let tekateki = JSON.parse(fs.readFileSync(`./src/game/رياضه.json`));
+    let tekateki = JSON.parse(fs.readFileSync(`./src/game/miku2.json`));
     let json = tekateki[Math.floor(Math.random() * tekateki.length)];
     let _clue = json.response;
     let clue = _clue.replace(/[A-Za-z]/g, ''); // Fixed this line
@@ -18,8 +18,8 @@ let handler = async (m, { conn, usedPrefix }) => {
 ⷮ ${json.question}
 
 ❐↞┇الـوقـت⏳↞ ${(timeout / 1000).toFixed(2)}┇
-❐↞┇الـجـائـزة💵↞ ${poin} دولار┇
-*『𝐆𝐎𝐉𝐎⚡𝐁𝐎𝐓』*
+❐↞┇الـجـائـزة💰↞ ${poin} نقاط┇
+『💜🎁.』
 `.trim();
     conn.tekateki[id] = [
        await conn.reply(m.chat, caption, m),
@@ -33,6 +33,6 @@ let handler = async (m, { conn, usedPrefix }) => {
 
 handler.help = ['miku'];
 handler.tags = ['game'];
-handler.command = /^(رياضه)$/i;
+handler.command = /^(حروف)$/i;
 
 export default handler;
