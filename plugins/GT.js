@@ -22,7 +22,7 @@ let handler = async (m, { conn, command }) => {
   else if (command === 'puzzle1') {
     await conn.sendMessage(m.chat, { text: "مبروك! إجابة صحيحة: العمر." }, { quoted: m });
     await conn.sendMessage(m.chat, {
-      text: "تريد تلعب تاني؟",
+      text: "تريد تلعب ثاني؟",
       buttons: [{ buttonId: 'لغز', buttonText: { displayText: 'كمل لعب' }, type: 1 }],
       footer: 'اختار الإجابة الصحيحة',
       headerType: 1
@@ -31,7 +31,7 @@ let handler = async (m, { conn, command }) => {
   else if (command === 'puzzle2' || command === 'puzzle3') {
     await conn.sendMessage(m.chat, { text: "خطأ! الإجابة الصحيحة هي العمر." }, { quoted: m });
     await conn.sendMessage(m.chat, {
-      text: "تريد تلعب تاني؟",
+      text: "تريد تلعب ثاني؟",
       buttons: [{ buttonId: 'لغز', buttonText: { displayText: 'كمل لعب' }, type: 1 }],
       footer: 'اختار الإجابة الصحيحة',
       headerType: 1
