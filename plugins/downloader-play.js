@@ -22,7 +22,7 @@ const handler = async (m, { conn, command, args, text, usedPrefix }) => {
     additionalText = 'vídeo';
   }
 
-    const texto1 = `_*< معلومات الفديو />*_\n\n ▢🏠 *عنوان:* ${yt_play[0].title}\n\n▢ *Publicado:* ${yt_play[0].ago}\n\n▢📜 *وصف الفديو:* ${secondString(yt_play[0].duration.seconds)}\n\n▢👁 *مشاهدات الفديو:* ${`${MilesNumber(yt_play[0].views)}`}\n\n▢ *Autor:* ${yt_play[0].author.name}\n\n▢ *عنوان الid:* ${yt_play[0].videoId}\n\n▢📚 الكتابه:* ${yt_play[0].type}\n\n▢ *وصولات:* ${yt_play[0].url}\n\n▢🧔🏻 *القناه* ${yt_play[0].author.url}\n\n*[ ℹ️ ] استني لو كنت بعتت ${additionalText}. انتظر الارسال*`.trim();
+    const texto1 = `_*< معلومات الفيديو />*_\n\n ▢🏠 *عنوان:* ${yt_play[0].title}\n\n▢ *Publicado:* ${yt_play[0].ago}\n\n▢📜 *وصف الفديو:* ${secondString(yt_play[0].duration.seconds)}\n\n▢👁 *مشاهدات الفديو:* ${`${MilesNumber(yt_play[0].views)}`}\n\n▢ *Autor:* ${yt_play[0].author.name}\n\n▢ *عنوان الid:* ${yt_play[0].videoId}\n\n▢📚 الكتابه:* ${yt_play[0].type}\n\n▢ *وصولات:* ${yt_play[0].url}\n\n▢🧔🏻 *القناه* ${yt_play[0].author.url}\n\n*[ ℹ️ ] انتظر  ${additionalText}. انتظر الارسال*`.trim();
   conn.sendMessage(m.chat, { image: { url: yt_play[0].thumbnail }, caption: texto1 }, { quoted: m });
 
   if (command === 'اغنيه') {
@@ -71,7 +71,7 @@ const handler = async (m, { conn, command, args, text, usedPrefix }) => {
           return;
         }
       } catch {
-     throw '_*< االبحث-ففديوه>*_\n\n*[ 𝐆𝐎𝐉𝐎⚡𝐁𝐎𝐓 ] حدث خطأ. يرجى المحاولة مرة أخرى في وقت لاحق.*';    
+     throw '_*< االبحث-فيديو>*_\n\n*[ ستيفن⚡بوت ] حدث خطأ. يرجى المحاولة مرة أخرى في وقت لاحق.*';    
             }
     }
   }
