@@ -26,7 +26,7 @@ let handler = async (m, {
 }
 handler.help = ["بوت"]
 handler.tags = ["ai"];
-handler.command = /^(شيخ)$/i
+handler.command = /^(ستيفن)$/i
 
 export default handler
 
