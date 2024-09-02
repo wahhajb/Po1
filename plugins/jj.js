@@ -17,7 +17,7 @@ const handler = async (m, { conn, text, usedPrefix: prefijo }) =>  {
     const device = await getDevice(m.key.id);
 
   if (!text) throw `⚠️ *اكتب الي بتبحث عنه في يوتيوب*\n\n
-  *مثال*\n*سورة المؤمنون*`;
+  *مثال*\n*سورة الفاتحه*`;
 
   if (device !== 'desktop' || device !== 'web') {      
 
@@ -31,7 +31,7 @@ const handler = async (m, { conn, text, usedPrefix: prefijo }) =>  {
     body: { text: `*نتائج البحث* ${results.videos.length}\n\n\n\n*—◉ Video aleatorio:*\n*-› وصف:* ${randomVideo.title}\n\n\n\n*-› قناه:* ${randomVideo.author.name}\n\n*-› مشاهدات:* ${randomVideo.views}\n\n*-› رابط الفديو:* ${randomVideo.url}\n\n\n*-› رابط الصوره:* ${randomVideo.thumbnail}\n\n\n\n> *❎انا غير مسؤل عن موسيقى او اي شي حرام*`.trim() },
     footer: { text: `${global.wm}`.trim() },  
       header: {
-          title: `*>بحث بلوتو👌😘*\n`,
+          title: `*>بحث ستيفن*\n`,
           hasMediaAttachment: true,
           imageMessage: messa.imageMessage,
       },
@@ -40,7 +40,7 @@ const handler = async (m, { conn, text, usedPrefix: prefijo }) =>  {
         {
           name: 'single_select',
           buttonParamsJson: JSON.stringify({
-            title: 'اختار الفديو يعسل 😊😋',
+            title: 'اختار الفيديو من هنا',
             sections: videos.map((video) => ({
               title: video.title,
               rows: [
@@ -114,5 +114,5 @@ const handler = async (m, { conn, text, usedPrefix: prefijo }) =>  {
 };
 handler.help = ['ytsearch <texto>'];
 handler.tags = ['search'];
-handler.command = /^(ytsearch|yts|searchyt|buscaryt|videosearch|audiosearch)$/i;
+handler.command = /^(ytsearch|يوتيوب|searchyt|buscaryt|videosearch|audiosearch)$/i;
 export default handler;
