@@ -18,7 +18,7 @@ let texto = `
 ┗━━━━𓊈⚡حكمه𓊉━━━━┛
 `
 conn.sendButton(m.chat, texto.trim(), wm, img, [
-["حكمه تاني؟", `${usedPrefix + command}`],
+["حكمه اخرى؟", `${usedPrefix + command}`],
 [lenguajeGB.smsConMenu(), `${usedPrefix}menu`]], null, fkontak)}
 //conn.sendFile(m.chat, img, 'error.png', texto.trim(), fkontak)}   
 //await conn.sendButton(m.chat, texto.trim(), wm, img, [[lenguajeGB.smsConj(), `${usedPrefix + command}`], [lenguajeGB.smsConMenu(), `${usedPrefix}menu`]], m, frep)}   
