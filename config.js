@@ -15,7 +15,7 @@ import { en, es, id, ar, pt } from "./lib/idiomas/total-idiomas.js"
 global.owner = [
 ["967781974099", 'ذاك الامير', true], 
 ["967781974099", 'ذاك الامير', true], 
-["967781974099", .'ذاك الامير.', true], //𝙂𝙖𝙩𝙖𝘽𝙤𝙩-𝙈𝘿 💖🐈
+["967781974099", 'ذاك الامير', true], //𝙂𝙖𝙩𝙖𝘽𝙤𝙩-𝙈𝘿 💖🐈
 ]
 
 global.mods = []
@@ -125,7 +125,7 @@ global.country = '' // Add country, example: 🇪🇨
 // • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
 
 global.packname = `╭ ذاك الامير  🐈\n┃\n┃ » 𝚃𝚎𝚕𝚎𝚐𝚛𝚊𝚖:\n┃ @g\n┃\n┃ » 𝚈𝚘𝚞𝚃𝚞𝚋𝚎:\n┃ @g\n┃\n┃ » 𝙸𝚗𝚜𝚝𝚊𝚐𝚛𝚊𝚖:\n┃ @f0.0n1\n╰━━━━━━━━•` //"𝙂𝙖𝙩𝙖𝘽𝙤𝙩-𝙈𝘿 🐈"
-global.author = ` ╭ ⌞🔰┊ 𝑹𝑶𝑩 𝑩𝑶𝑻 ┊🔰⌝ \n ┃\n ┃ » 𝙶𝚒𝚝𝙷𝚞𝚋:\n ┃ g-Li\n ┃\n ┃ ⊹ Super Bot WhatsApp.\n ┃\n ┃ ♡ Apoyo\n ┃ » 𝙿𝚊𝚢𝙿𝚊𝚕:\n ┃ @g\n ╰━━━━━━━━•` //"𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨"
+global.author = ` ╭ ⌞🔰┊ ذاك الامير 𝑩𝑶𝑻 ┊🔰⌝ \n ┃\n ┃ » 𝙶𝚒𝚝𝙷𝚞𝚋:\n ┃ g-Li\n ┃\n ┃ ⊹ Super Bot WhatsApp.\n ┃\n ┃ ♡ Apoyo\n ┃ » 𝙿𝚊𝚢𝙿𝚊𝚕:\n ┃ @g\n ╰━━━━━━━━•` //"𝙂𝙖𝙩𝙖 𝘿𝙞𝙤𝙨"
 
 // • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
 // [ES] > INFORMACIÓN DE VERSIONES DEL BOT, POR FAVOR 
@@ -133,7 +133,7 @@ global.author = ` ╭ ⌞🔰┊ 𝑹𝑶𝑩 𝑩𝑶𝑻 ┊🔰⌝ \n ┃\n �
 // [EN] > BOT VERSION INFORMATION, PLEASE KEEP THIS UNCHANGED, WE STRIVE DAILY TO PROVIDE YOU WITH A BOT FOR THE COMMUNITY, BE GRATEFUL
 global.vs = "1.7.0"
 global.vsJB = "3.0 (Beta)"
-global.gt = "⌞🔰┊ 𝑹𝑶𝑩 𝑩𝑶𝑻 ┊🔰⌝"
+global.gt = "⌞🔰┊ ذاك الامير 𝑩𝑶𝑻 ┊🔰⌝"
 
 fetchDataAndProcess().catch(error => console.error('Ocurrió un error:', error))
 
@@ -162,7 +162,7 @@ global.exito = eg
 
 // • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • • •
 global.wm = "ذاك الامير"
-global.igfg = "⌞🔰┊ 𝑹𝑶𝑩 𝑩𝑶𝑻 ┊🔰⌝"
+global.igfg = "⌞🔰┊ ذاك الامير 𝑩𝑶𝑻 ┊🔰⌝"
 global.nomorown =  [
 ["967783179256", 'ستيفن', 1], 
 ["967783179256", 'ستيفن', 1],  
@@ -431,7 +431,7 @@ import(`${file}?update=${Date.now()}`);
 })
 
 async function fetchDataAndProcess() {
-const response = await fetch('https://raw.githubusercontent.com/mohamedeldony3/insta2/main/official_accounts.json')
+const response = await fetch('https://raw.githubusercontent.com/GataNina-Li/GataBot-MD/master/official_accounts.json')
 const data = await response.json() 
 let { accounts, channels, groups, collaboration, sponsors, others } = data.info
 
