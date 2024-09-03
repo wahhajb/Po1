@@ -36,14 +36,16 @@ conn.relayMessage(m.chat, { viewOnceMessage: { message: { interactiveMessage: { 
 > •رتــبــتــك : ${role}
 *• ──╾⊱﹝⚜️﹞⊰╼── •*
 ╗───¤مــعلــومــات الــ🤖بــوت
-> •إســم الــبــوت: -شـيخ⁵¹⁷. 
-> •الــمــطــور :-شـيخ⁵¹⁷.
+> •إســم الــبــوت: -ذاك الامير. 
+> •الــمــطــور :-ذاك الامير 
+رقم المطرر :
+https://wa.me/+967781974099.
 > •مــدة الــتــشــغــيل : ${uptime}
 *• ──╾⊱﹝⚜️﹞⊰╼── •*
 *~⌬ تــ✍︎ــوقــيــع ↡~*🖋️
 *⌞⚜️┊ス M.Z┊⚜️⌝*
 *• ──╾⊱﹝⚜️﹞⊰╼── •*
-> Copyright © 2024 -شـيخ⁵¹⁷.`,subtitle: "Elsony",},header: { hasMediaAttachment: true,...(await prepareWAMessageMedia({ image : { url: Elsony } }, { upload: conn.waUploadToServer }, {quoted: m}))},
+> Copyright © 2024 -ذاك الامير.`,subtitle: "Elsony",},header: { hasMediaAttachment: true,...(await prepareWAMessageMedia({ image : { url: Elsony } }, { upload: conn.waUploadToServer }, {quoted: m}))},
                     contextInfo: {
                         mentionedJid: [m.sender],
                         isForwarded: false,
