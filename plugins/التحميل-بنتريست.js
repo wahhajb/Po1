@@ -7,7 +7,7 @@ const {
 
 let handler = async (message, { conn, text, usedPrefix, command }) => {
   if (!text) {
-    return conn.reply(message.chat, "[❗] *فين النص اللي هتبحث عنو ي حوب*", message);
+    return conn.reply(message.chat, "[❗] *فين اسم الصور اللي بتبحث عنها*", message);
   }
 
   try {
@@ -44,16 +44,16 @@ let handler = async (message, { conn, text, usedPrefix, command }) => {
                                 name: "cta_url",
                                 buttonParamsJson: JSON.stringify({
                                     display_text: "الـدعـم",                   
-                                    url: "https://chat.whatsapp.com/IjnnpVetedoHDYKYwen77a",
-                                    merchant_url: "https://chat.whatsapp.com/IjnnpVetedoHDYKYwen77a"
+                                    url: "https://chat.whatsapp.com/IsTDQc8976VHF64orJUqK2",
+                                    merchant_url: "https://chat.whatsapp.com/IsTDQc8976VHF64orJUqK2"
                                 })
                             }, 
                       {
                                 name: "cta_url",
                                 buttonParamsJson: JSON.stringify({
                                     display_text: "قـنـاتـي",                   
-                                    url: "https://chat.whatsapp.com/IjnnpVetedoHDYKYwen77a",
-                                    merchant_url: "https://chat.whatsapp.com/IjnnpVetedoHDYKYwen77a"
+                                    url: "https://chat.whatsapp.com/IsTDQc8976VHF64orJUqK2",
+                                    merchant_url: "https://chat.whatsapp.com/IsTDQc8976VHF64orJUqK2"
                                 })
                             }, 
             {
@@ -102,7 +102,7 @@ let handler = async (message, { conn, text, usedPrefix, command }) => {
 // إعادة تعريف المساعدات والتعليمات
 handler.help = ["pinterest"];
 handler.tags = ["downloader"];
-handler.command = /^(بين)$/i;
+handler.command = /^(ص)$/i;
 
 export default handler;
 
